@@ -1,0 +1,158 @@
+/* footer{
+    background-color: #2B155B;  
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.Footer_items {
+     padding: 20px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ 
+}
+.Footer_items img{
+    padding-right:10px;
+}
+
+
+.Footer_header {
+    margin: 20px 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+ p{
+    color: #fff;
+}
+
+.Footer_hr hr{
+    border-top: 4px solid #fff;
+    width:70% ;
+    margin:30px auto 0;
+   
+}
+
+.Footer_hr p{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+.copy{
+    font-size: 25px;
+}
+
+@media screen and (max-width:768px)
+{
+    .Footer_items{
+        padding: 20px; 
+        display: block;
+    }  
+    .Footer_header{
+        margin: 15px 0;
+        font-weight: bold;
+        color: #292E6B;
+    }
+    
+    .Footer_media ul{
+        display: flex;
+    }
+    .Footer_items img{
+        padding-right: 10px;
+    }
+
+    
+    
+}    */
+
+.Footer-main{
+    background-color: #020322;  
+    width:100%;
+    padding: 2rem;
+}
+
+.Footer-list img{
+    width: 100%;
+    height: 5vh;
+    padding-right:10px;
+}
+
+.Footer_items {
+    width: 100%;
+     display: flex;
+     justify-content: space-around;
+}
+
+.Footer_links{
+    width: 33%;
+    
+}
+ .logo{
+    width: 100%;
+}
+
+.Footer_header {
+    font-weight: bold;
+    color: #fff;
+}
+
+.Footer_hr hr{
+    border-bottom: 4px solid #fff; 
+    width:70% ;
+    margin:30px auto 0;
+   
+}
+
+.Footer_hr p{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.copy{
+    font-size: 25px;
+}
+.Footer-list {
+    display: flex; 
+    color: #fff;
+    padding: 10px 0; 
+}
+.Footer-list, p{
+    color: #fff;
+}
+.Footer-list1 li{
+    padding:0.5rem ;
+}
+.Box{
+    width: 130px;
+}
+
+@media screen and (max-width:768px)
+{   
+    .Footer_links{
+        width: 100%;
+        
+    }
+
+    .Footer-list{
+        padding: 5px 0;
+    }
+    .Footer-list1{
+        display: inline;
+        padding: 3rem ;
+    }
+    .Footer_items{
+        padding: 20px; 
+        display: block;
+    }  
+    .Footer_header{
+        margin: 15px 0;
+        font-weight: bold;
+    }
+    .Footer_items img{
+        padding-right: 10px;
+    }
+
+    
+    
+}   

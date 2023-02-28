@@ -1,0 +1,63 @@
+.hero {
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .Hero_info {
+    position: absolute;
+    color: #fff;
+    width: 30%;
+    float: left;
+    left: 100px;
+    top: 200px;
+  }
+  .Hero_info h1{
+    font-weight: bold;
+  }
+  .Hero_info p {
+    font-size: 1rem;
+    padding: 2rem 0;
+  }
+  .hero img{
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-shape {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .hero-shape img {
+    width: 100%;
+    display: block;
+  }
+  
+  @media screen and (max-width: 768px) {
+   
+   .hero img{
+      width: 100vw;
+      height: 90vh;
+     
+    }
+    .Hero_info {
+      position: absolute;
+      color: #fff;
+      width: 80%;
+      float: left;
+      left: 10px;
+      top: 150px;
+    }
+    .Hero_info h1{
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    .btn{
+      width: 70%;
+      margin: 1rem 0;
+    }
+  }
+  
